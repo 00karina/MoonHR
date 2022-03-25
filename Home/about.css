@@ -1,0 +1,95 @@
+.detailss h5 {
+  color: #161D82;
+  font-family: Rokkitt;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about {
+  height: 40px;
+  background-color: #484545;
+  color: white;
+}
+
+.about .detailss {
+  margin-top: 100px;
+}
+
+.about p {
+  color: aliceblue;
+  text-align: right;
+  padding-top: 5px;
+}
+
+.about span {
+  margin-left: 30px;
+}
+
+.navbar {
+  position: fixed;
+  margin-top: 35px;
+  background-color: #F1F1F1;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.navbar .nav-link {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+p {
+  font-family: Roboto;
+  text-align: justify;
+  margin-bottom: 60px;
+  font-family: 20px;
+}
+
+.member .MultiCarousel {
+  float: left;
+  overflow: hidden;
+  padding: 15px;
+  width: 100%;
+  position: relative;
+}
+
+.member .MultiCarousel .MultiCarousel-inner {
+  -webkit-transition: 1s ease all;
+  transition: 1s ease all;
+  float: left;
+}
+
+.member .MultiCarousel .MultiCarousel-inner .item {
+  float: left;
+}
+
+.member .MultiCarousel .MultiCarousel-inner .item > div {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: #f1f1f1;
+  color: #666;
+}
+
+.member .MultiCarousel .leftLst, .member .MultiCarousel .rightLst {
+  position: absolute;
+  border-radius: 50%;
+  top: calc(50% - 20px);
+}
+
+.member .MultiCarousel .leftLst {
+  left: 0;
+}
+
+.member .MultiCarousel .rightLst {
+  right: 0;
+}
+
+.member .MultiCarousel .leftLst.over, .member .MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background: #ccc;
+}
+/*# sourceMappingURL=about.css.map */

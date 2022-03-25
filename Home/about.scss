@@ -1,0 +1,67 @@
+.detailss
+{ 
+  h5{
+  color: #161D82;
+font-family: Rokkitt;
+font-style: normal;
+font-weight: bold;
+font-size:30px;
+margin-top: 20px;
+margin-bottom:20px;
+}
+}
+.about{
+    height: 40px;
+    background-color: #484545;
+    color:white;
+
+  .detailss{
+    margin-top: 100px;
+  }
+
+  p{
+    color: aliceblue;
+    text-align: right;
+    padding-top: 5px;
+  }
+  span{
+    margin-left: 30px;
+  }
+  }
+   .navbar{
+     position:fixed;
+     margin-top:35px;
+     background-color: #F1F1F1;
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+     .nav-link{
+       margin-left:4rem;
+       margin-right:4rem;
+     }
+   }
+   
+  
+  
+  p{
+    font-family: Roboto;
+    text-align: justify;
+    margin-bottom: 60px;
+    font-family: 20px;
+    
+  }
+ 
+.member{
+  .MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+  .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+      .MultiCarousel .MultiCarousel-inner .item { float: left;}
+      .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+  .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+  .MultiCarousel .leftLst { left:0; }
+  .MultiCarousel .rightLst { right:0; }
+  
+      .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+  }
+  
+
+
+  
